@@ -20,12 +20,23 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://ash1999.vercel.app'),
+    icons: {
+        icon: '/img/mini logo.webp',
+    },
     title: 'ash1999 - Portfolio',
     description: 'Portfolio of ash1999 — branding, typography, print, web design, motion design, illustration and mixed media projects.',
     openGraph: {
         title: 'ash1999 - Portfolio',
         description: 'Branding, typography, print, web design, motion design, illustration and mixed media projects.',
-        images: ['/img/logo-ash1999.webp'],
+        images: [
+            {
+                url: '/img/social-share.png',
+                width: 1200,
+                height: 630,
+                alt: 'ash1999 logo',
+                type: 'image/png',
+            },
+        ],
         type: 'website',
         locale: 'fr_FR',
     },
@@ -33,7 +44,14 @@ export const metadata: Metadata = {
         card: 'summary',
         title: 'ash1999 - Portfolio',
         description: 'Branding, typography, print, web design, motion design, illustration and mixed media projects.',
-        images: ['/img/logo-ash1999.webp'],
+        images: [
+            {
+                url: '/img/social-share.png',
+                width: 1200,
+                height: 630,
+                alt: 'ash1999 logo',
+            },
+        ],
     },
 };
 
